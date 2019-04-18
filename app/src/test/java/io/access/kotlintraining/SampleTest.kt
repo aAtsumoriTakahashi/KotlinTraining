@@ -4,9 +4,15 @@ import org.junit.Test
 import kotlin.test.assertEquals
 
 class SampleTest {
+
+    fun hello(){
+        println("Hello World!")
+    }
+
     @Test
     fun testWelcome() {
         welcome()
+        hello()
 
         // Example of test
         val expected = 1
